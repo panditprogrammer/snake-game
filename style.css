@@ -70,7 +70,7 @@ select option{
 }
 .food{
     background: linear-gradient(green ,red);
-    background-image: url(/assets/apple.png);
+    background-image: url(assets/apple.png);
     background-size: cover;
     background-repeat: no-repeat;
     transition: all 0.7s;
