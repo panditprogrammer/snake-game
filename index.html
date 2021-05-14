@@ -1,16 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Snake Game : Pandit Programmer</title>
     <link rel="stylesheet" href="style.css">
+    <!-- favicon images  -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- favicon images ends  -->
 </head>
+
 <body>
 
     <div class="score">
-        <h2 id="scoreh1"> score 0 </h2>
+        <h1 id="scoreh1"> score 0 </h1>
+        <!-- option for speed game level  -->
         <select name="level" id="speed_user">
             <option value="2">Level 1</option>
             <option value="4">Level 2</option>
@@ -20,13 +32,27 @@
             <option value="12">Level 6</option>
             <option value="14">Level 7</option>
         </select>
+        <!-- showing High score  -->
         <h2 id="scorehigh"> High Score 0 </h2>
     </div>
+    <div class="game_over">
+<!-- after game over code will be injected -->
+    </div>
     <div id="game">
+<!-- main game container  -->
+    </div>
+    <!-- controller for touch-icon devices  -->
+    <div class="control">
+        <div id="left"><strong>&larr;</strong></div>
+        <div id="down"><strong>&darr;</strong>
+        </div>
+        <div id="right"><strong>&rarr;</strong></div>
+        <div id="up"><strong>&uarr;</strong></div>
 
     </div>
-<h3 class="title">Designed by PanditProgrammer.com</h3>
+    <h3 class="title">Designed by PanditProgrammer.com</h3>
 
     <script src="index.js"></script>
 </body>
+
 </html>
